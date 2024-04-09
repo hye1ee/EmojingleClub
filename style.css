@@ -27,6 +27,11 @@
   font-weight: 600;
   font-style: normal;
 }
+.font-script {
+  font-family: "League Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .font-125 {
   font-size: 125px;
@@ -141,6 +146,88 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.button {
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+
+  transition: all 0.3s;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.9);
+  }
+}
+.button-bottom {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.text-instruction {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.card-wrapper {
+  width: 900px;
+  height: 523px;
+  position: relative;
+}
+.card-img {
+  width: 900px;
+  height: 523px;
+}
+.card-id {
+  font-size: 30px;
+
+  position: absolute;
+  right: 50px;
+  top: 218px;
+}
+.card-date {
+  font-size: 36px;
+
+  position: absolute;
+  right: 55px;
+  top: 265px;
+}
+.card-name {
+  width: 350px;
+
+  font-size: 50px;
+  position: absolute;
+  right: 55px;
+  bottom: 70px;
+
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  color: white;
+
+  text-align: center;
+}
+
+.card-face {
+  width: 360px;
+  height: 360px;
+
+  position: absolute;
+  left: 55px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 ::-webkit-scrollbar {
