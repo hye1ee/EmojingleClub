@@ -187,8 +187,18 @@ const expressionItems = [
   },
   {
     type: "expression",
+    name: "bubble expression",
+    src: "assets/expression_bubble.png",
+  },
+  {
+    type: "expression",
     name: "tear expression",
     src: "assets/expression_tear.png",
+  },
+  {
+    type: "expression",
+    name: "sniff expression",
+    src: "assets/expression_sniff.png",
   },
 ];
 
